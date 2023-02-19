@@ -27,7 +27,6 @@ function getTasks() {
 // Function to determine whether a time-block is in past, present, or future
 function timeCheck() {
     let currentTime = moment().format('H') * 100;
-    currentTime = 1100;
     for (i = 900; i <= 1700; i += 100) {
         let inputI = document.getElementById(i);
         // CurrentTime is earlier than the time-block
